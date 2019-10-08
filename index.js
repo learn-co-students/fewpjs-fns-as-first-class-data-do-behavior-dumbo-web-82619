@@ -9,7 +9,7 @@ function handleClick(e) {
 
 function displayMessage(input){
   let text = document.querySelector('h1#greeting')
-  text = input
+  text.innerText = input
   debugger
 }
 
